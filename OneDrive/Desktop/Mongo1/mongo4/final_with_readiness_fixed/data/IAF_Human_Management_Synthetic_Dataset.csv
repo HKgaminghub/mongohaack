@@ -1,0 +1,201 @@
+Personnel_ID,Name,Age,Rank,Years_of_Service,Primary_Skill,Secondary_Skill,Medical_Category,BMI,Last_Medical_Checkup,Training_Course,Training_Score,Performance_Rating,Performance_Feedback,Missions_Completed,Last_Mission_Date,Readiness_Level,Leadership_Potential,Attrition_Risk
+IAF1000,Person_1,42,Pilot Officer,1,Cybersecurity,Technician,A2,21.0,2020-11-24,Radar Ops,45,Below Average,Excellent leadership in mission,1,2020-04-08,Low,Low,Yes
+IAF1001,Person_2,39,Flying Officer,23,Cybersecurity,Cybersecurity,C1,23.1,2023-10-09,Flight Training,88,Good,Medical condition affecting performance,21,2022-03-07,Medium,High,Yes
+IAF1002,Person_3,34,Pilot Officer,12,Radar Operator,Technician,C1,21.4,2020-12-15,Radar Ops,47,Below Average,Excellent leadership in mission,35,2022-11-20,Medium,Low,Yes
+IAF1003,Person_4,44,Pilot Officer,2,Cybersecurity,Engineer,B1,29.3,2021-02-13,Medical Emergency,69,Average,Needs improvement in technical accuracy,23,2022-04-22,Medium,Low,Yes
+IAF1004,Person_5,41,Flying Officer,18,Cybersecurity,Engineer,A2,23.6,2022-11-23,Radar Ops,54,Average,Excellent leadership in mission,14,2020-06-13,Medium,High,Yes
+IAF1005,Person_6,40,Flight Lieutenant,7,Cybersecurity,Medical,B2,28.2,2023-03-09,Engineering Systems,55,Average,High readiness and discipline,27,2024-07-12,High,High,No
+IAF1006,Person_7,24,Pilot Officer,28,Pilot,Engineer,A2,27.2,2023-10-03,Cyber Defense,64,Below Average,High readiness and discipline,16,2024-01-22,Low,High,No
+IAF1007,Person_8,46,Flight Lieutenant,4,Technician,Medical,A2,23.5,2022-09-25,Engineering Systems,72,Excellent,Strong teamwork and adaptability,40,2024-10-07,High,Medium,Yes
+IAF1008,Person_9,39,Wing Commander,1,Admin,Technician,B2,18.7,2022-05-08,Flight Training,55,Excellent,Excellent leadership in mission,46,2023-02-25,Low,High,Yes
+IAF1009,Person_10,43,Squadron Leader,18,Engineer,Technician,C1,28.1,2023-04-18,Engineering Systems,85,Average,Medical condition affecting performance,42,2022-08-17,Medium,High,Yes
+IAF1010,Person_11,29,Pilot Officer,11,Pilot,Admin,C1,21.0,2021-01-03,Flight Training,54,Excellent,Excellent leadership in mission,21,2020-09-08,Medium,Low,No
+IAF1011,Person_12,28,Wing Commander,5,Cybersecurity,Admin,C1,23.7,2023-07-07,Flight Training,46,Below Average,Strong teamwork and adaptability,27,2023-08-28,Low,High,Yes
+IAF1012,Person_13,23,Squadron Leader,24,Technician,Radar Operator,A1,21.2,2021-09-15,Engineering Systems,67,Good,Strong teamwork and adaptability,29,2021-02-15,Low,High,Yes
+IAF1013,Person_14,42,Wing Commander,27,Pilot,Pilot,A2,20.3,2023-08-07,Cyber Defense,97,Excellent,Needs improvement in technical accuracy,24,2020-07-09,Medium,Medium,No
+IAF1014,Person_15,44,Wing Commander,22,Cybersecurity,Medical,A2,20.6,2021-01-19,Radar Ops,43,Average,Excellent leadership in mission,3,2024-08-17,Low,High,Yes
+IAF1015,Person_16,38,Pilot Officer,28,Engineer,Pilot,C1,19.2,2021-07-04,Radar Ops,55,Excellent,High readiness and discipline,5,2023-11-19,Low,Low,No
+IAF1016,Person_17,30,Flying Officer,22,Cybersecurity,Technician,A2,21.4,2021-11-21,Medical Emergency,69,Average,Excellent leadership in mission,0,2023-10-19,High,High,Yes
+IAF1017,Person_18,38,Flight Lieutenant,5,Technician,Pilot,A2,22.6,2021-08-27,Radar Ops,85,Average,High readiness and discipline,41,2024-01-22,Low,Medium,Yes
+IAF1018,Person_19,50,Flying Officer,9,Pilot,Pilot,C1,20.2,2022-10-07,Medical Emergency,53,Average,High readiness and discipline,31,2022-01-03,Low,Medium,No
+IAF1019,Person_20,23,Pilot Officer,11,Radar Operator,Engineer,B1,20.3,2023-09-23,Cyber Defense,75,Excellent,Excellent leadership in mission,4,2021-09-02,Medium,Low,Yes
+IAF1020,Person_21,35,Flying Officer,2,Technician,Technician,A1,28.4,2021-11-08,Flight Training,62,Below Average,High readiness and discipline,47,2021-04-28,High,High,No
+IAF1021,Person_22,22,Flying Officer,24,Technician,Radar Operator,B2,27.3,2021-05-06,Flight Training,64,Excellent,Medical condition affecting performance,14,2021-08-12,Medium,High,Yes
+IAF1022,Person_23,22,Flying Officer,13,Technician,Technician,A1,29.1,2022-06-21,Radar Ops,65,Average,Excellent leadership in mission,7,2022-03-19,Medium,High,Yes
+IAF1023,Person_24,41,Squadron Leader,12,Cybersecurity,Radar Operator,B1,23.3,2024-02-13,Radar Ops,52,Average,Excellent leadership in mission,45,2023-01-17,Low,Low,Yes
+IAF1024,Person_25,33,Squadron Leader,3,Cybersecurity,Technician,C1,22.0,2020-12-10,Radar Ops,59,Below Average,Strong teamwork and adaptability,25,2022-09-05,High,Medium,No
+IAF1025,Person_26,43,Flying Officer,20,Admin,Technician,B2,24.5,2020-05-10,Engineering Systems,67,Average,Medical condition affecting performance,28,2023-11-07,Low,Medium,Yes
+IAF1026,Person_27,43,Pilot Officer,10,Admin,Cybersecurity,C1,22.2,2021-11-10,Engineering Systems,91,Good,Needs improvement in technical accuracy,1,2020-04-16,Low,High,No
+IAF1027,Person_28,35,Wing Commander,7,Cybersecurity,Cybersecurity,B2,23.9,2021-03-21,Flight Training,97,Excellent,Medical condition affecting performance,14,2021-12-17,Medium,High,Yes
+IAF1028,Person_29,49,Pilot Officer,15,Engineer,Radar Operator,B2,25.8,2024-10-11,Cyber Defense,79,Below Average,High readiness and discipline,28,2021-12-28,Medium,Medium,No
+IAF1029,Person_30,46,Flying Officer,27,Cybersecurity,Technician,C1,23.8,2021-05-15,Flight Training,85,Average,Needs improvement in technical accuracy,17,2022-06-18,High,High,Yes
+IAF1030,Person_31,29,Squadron Leader,23,Engineer,Cybersecurity,A2,19.2,2023-06-18,Cyber Defense,66,Excellent,Needs improvement in technical accuracy,26,2023-10-23,High,Low,No
+IAF1031,Person_32,37,Pilot Officer,12,Technician,Radar Operator,B2,27.9,2023-09-24,Radar Ops,91,Good,Medical condition affecting performance,14,2022-07-16,High,Medium,No
+IAF1032,Person_33,43,Squadron Leader,24,Engineer,Radar Operator,B2,28.6,2024-09-01,Cyber Defense,77,Excellent,Excellent leadership in mission,41,2023-03-28,Medium,High,Yes
+IAF1033,Person_34,30,Squadron Leader,11,Engineer,Medical,B1,22.2,2023-05-25,Cyber Defense,56,Excellent,Medical condition affecting performance,1,2024-01-12,High,Low,Yes
+IAF1034,Person_35,46,Pilot Officer,25,Pilot,Engineer,A2,27.7,2024-03-08,Engineering Systems,70,Excellent,High readiness and discipline,13,2023-12-09,Medium,High,Yes
+IAF1035,Person_36,46,Flying Officer,10,Pilot,Admin,A1,28.7,2024-11-13,Cyber Defense,100,Good,Excellent leadership in mission,37,2021-02-23,Medium,Low,Yes
+IAF1036,Person_37,47,Wing Commander,26,Pilot,Technician,C1,23.2,2022-02-17,Medical Emergency,40,Below Average,Medical condition affecting performance,6,2023-06-21,Medium,Low,Yes
+IAF1037,Person_38,35,Flying Officer,24,Admin,Cybersecurity,B1,25.3,2024-08-15,Cyber Defense,92,Average,Strong teamwork and adaptability,15,2020-05-15,High,Medium,No
+IAF1038,Person_39,32,Pilot Officer,16,Radar Operator,Technician,A2,23.9,2022-05-11,Medical Emergency,96,Average,High readiness and discipline,0,2024-04-03,High,Low,No
+IAF1039,Person_40,37,Wing Commander,25,Engineer,Cybersecurity,B2,25.6,2023-08-26,Flight Training,45,Average,Needs improvement in technical accuracy,25,2021-05-22,Low,Medium,No
+IAF1040,Person_41,39,Wing Commander,12,Medical,Cybersecurity,C1,22.1,2023-05-10,Medical Emergency,54,Excellent,Needs improvement in technical accuracy,20,2020-12-18,Low,High,Yes
+IAF1041,Person_42,28,Squadron Leader,9,Cybersecurity,Admin,C1,25.1,2020-04-10,Engineering Systems,63,Good,Strong teamwork and adaptability,0,2024-03-09,High,High,No
+IAF1042,Person_43,44,Flying Officer,21,Radar Operator,Radar Operator,B2,19.6,2020-10-10,Cyber Defense,70,Below Average,Strong teamwork and adaptability,11,2020-05-28,Medium,High,Yes
+IAF1043,Person_44,34,Squadron Leader,3,Admin,Cybersecurity,A1,20.2,2024-05-03,Engineering Systems,47,Below Average,High readiness and discipline,38,2024-04-25,Low,Medium,No
+IAF1044,Person_45,36,Flight Lieutenant,28,Admin,Medical,B1,24.8,2020-10-24,Flight Training,100,Good,Needs improvement in technical accuracy,16,2020-03-08,High,Low,Yes
+IAF1045,Person_46,27,Pilot Officer,14,Medical,Cybersecurity,C1,23.7,2020-04-10,Medical Emergency,84,Below Average,Excellent leadership in mission,43,2021-05-26,Low,Low,Yes
+IAF1046,Person_47,35,Pilot Officer,18,Engineer,Cybersecurity,A2,28.5,2021-02-02,Engineering Systems,90,Average,High readiness and discipline,47,2024-05-15,High,Medium,No
+IAF1047,Person_48,44,Squadron Leader,9,Admin,Admin,B2,23.3,2024-01-14,Medical Emergency,78,Average,Excellent leadership in mission,5,2021-11-27,Low,Low,Yes
+IAF1048,Person_49,46,Flight Lieutenant,19,Pilot,Radar Operator,A2,23.7,2023-05-06,Radar Ops,67,Below Average,Excellent leadership in mission,30,2022-07-11,Medium,Low,Yes
+IAF1049,Person_50,49,Flying Officer,11,Medical,Cybersecurity,B2,21.7,2023-09-02,Cyber Defense,45,Average,Strong teamwork and adaptability,20,2020-07-28,Low,High,No
+IAF1050,Person_51,35,Pilot Officer,7,Admin,Technician,C1,26.8,2023-01-07,Medical Emergency,75,Good,Strong teamwork and adaptability,28,2023-02-01,Low,Low,Yes
+IAF1051,Person_52,44,Flying Officer,10,Admin,Pilot,C1,23.0,2021-02-15,Flight Training,81,Good,Medical condition affecting performance,45,2022-09-23,Medium,Medium,No
+IAF1052,Person_53,37,Flying Officer,15,Admin,Engineer,B2,20.6,2024-09-24,Engineering Systems,95,Excellent,Strong teamwork and adaptability,49,2023-06-26,Low,Medium,Yes
+IAF1053,Person_54,31,Flight Lieutenant,27,Admin,Admin,B2,28.0,2023-09-16,Medical Emergency,61,Below Average,Medical condition affecting performance,20,2021-12-08,Low,Medium,Yes
+IAF1054,Person_55,49,Squadron Leader,2,Technician,Cybersecurity,B2,26.3,2023-07-22,Engineering Systems,71,Excellent,Needs improvement in technical accuracy,32,2024-06-28,High,Medium,Yes
+IAF1055,Person_56,38,Squadron Leader,1,Cybersecurity,Engineer,B2,28.1,2021-02-16,Medical Emergency,61,Below Average,Excellent leadership in mission,21,2024-07-11,Low,Low,No
+IAF1056,Person_57,49,Wing Commander,2,Admin,Pilot,A2,25.4,2022-04-24,Flight Training,67,Excellent,Excellent leadership in mission,28,2021-12-10,High,High,No
+IAF1057,Person_58,47,Pilot Officer,10,Technician,Technician,B2,20.1,2024-07-19,Engineering Systems,50,Good,Excellent leadership in mission,39,2023-10-22,High,Medium,Yes
+IAF1058,Person_59,29,Squadron Leader,21,Technician,Medical,B1,25.8,2023-05-22,Radar Ops,50,Excellent,Medical condition affecting performance,22,2024-05-21,Medium,Low,No
+IAF1059,Person_60,36,Flight Lieutenant,7,Medical,Radar Operator,B2,19.7,2023-10-12,Radar Ops,58,Average,Excellent leadership in mission,42,2023-05-01,Low,Low,Yes
+IAF1060,Person_61,41,Squadron Leader,27,Technician,Radar Operator,A2,25.2,2022-04-21,Engineering Systems,79,Average,Needs improvement in technical accuracy,40,2020-11-21,High,Medium,No
+IAF1061,Person_62,23,Wing Commander,12,Cybersecurity,Engineer,A1,28.5,2022-12-14,Engineering Systems,52,Good,High readiness and discipline,23,2024-09-09,High,Medium,No
+IAF1062,Person_63,47,Flight Lieutenant,24,Radar Operator,Technician,A1,23.7,2020-03-25,Engineering Systems,95,Below Average,High readiness and discipline,23,2020-07-01,Medium,Low,Yes
+IAF1063,Person_64,36,Flight Lieutenant,22,Cybersecurity,Cybersecurity,B1,24.9,2022-02-22,Engineering Systems,70,Excellent,High readiness and discipline,35,2022-10-08,Low,High,No
+IAF1064,Person_65,44,Flight Lieutenant,21,Medical,Pilot,A2,19.0,2020-05-16,Flight Training,46,Good,High readiness and discipline,8,2023-08-12,Low,Low,No
+IAF1065,Person_66,40,Flying Officer,14,Cybersecurity,Pilot,B2,25.3,2022-01-23,Medical Emergency,53,Below Average,Medical condition affecting performance,15,2022-02-22,Medium,Low,No
+IAF1066,Person_67,23,Squadron Leader,9,Engineer,Pilot,B2,19.5,2021-11-21,Radar Ops,41,Excellent,Strong teamwork and adaptability,15,2021-10-07,High,Low,Yes
+IAF1067,Person_68,40,Flying Officer,27,Radar Operator,Engineer,B1,27.0,2024-01-09,Engineering Systems,48,Average,Needs improvement in technical accuracy,7,2020-03-01,Medium,High,No
+IAF1068,Person_69,22,Flying Officer,9,Pilot,Engineer,B2,24.3,2020-08-15,Medical Emergency,72,Excellent,Medical condition affecting performance,32,2021-10-02,Low,Low,No
+IAF1069,Person_70,36,Pilot Officer,2,Medical,Radar Operator,B2,23.2,2020-08-23,Cyber Defense,44,Excellent,Strong teamwork and adaptability,38,2021-02-05,Medium,Low,No
+IAF1070,Person_71,34,Wing Commander,17,Technician,Medical,C1,25.2,2020-12-04,Radar Ops,86,Good,Medical condition affecting performance,28,2021-07-11,Medium,Medium,No
+IAF1071,Person_72,45,Pilot Officer,11,Medical,Technician,B1,22.6,2021-11-16,Flight Training,45,Excellent,Excellent leadership in mission,27,2020-12-24,Medium,High,Yes
+IAF1072,Person_73,40,Wing Commander,18,Technician,Cybersecurity,A1,23.0,2023-12-02,Medical Emergency,78,Average,Strong teamwork and adaptability,6,2024-09-07,High,Low,No
+IAF1073,Person_74,29,Pilot Officer,12,Radar Operator,Admin,B1,19.8,2022-10-08,Cyber Defense,94,Excellent,High readiness and discipline,42,2022-01-06,Medium,Low,No
+IAF1074,Person_75,32,Flight Lieutenant,1,Engineer,Radar Operator,A2,24.7,2023-02-05,Flight Training,45,Good,Medical condition affecting performance,26,2023-06-06,Medium,Medium,No
+IAF1075,Person_76,46,Wing Commander,20,Pilot,Pilot,A2,20.2,2024-01-22,Flight Training,57,Below Average,Medical condition affecting performance,31,2024-08-14,Medium,High,Yes
+IAF1076,Person_77,33,Squadron Leader,4,Technician,Cybersecurity,C1,23.9,2022-01-08,Cyber Defense,78,Excellent,Excellent leadership in mission,13,2022-04-25,High,Medium,No
+IAF1077,Person_78,32,Pilot Officer,1,Medical,Cybersecurity,B2,20.4,2023-09-23,Engineering Systems,72,Average,Excellent leadership in mission,25,2020-07-01,Medium,High,No
+IAF1078,Person_79,40,Squadron Leader,19,Medical,Cybersecurity,B2,21.7,2023-01-11,Engineering Systems,91,Below Average,Strong teamwork and adaptability,5,2023-02-08,Medium,Low,No
+IAF1079,Person_80,38,Pilot Officer,13,Radar Operator,Technician,B1,20.9,2021-02-17,Flight Training,73,Good,Strong teamwork and adaptability,22,2021-04-04,High,Medium,Yes
+IAF1080,Person_81,27,Wing Commander,5,Radar Operator,Radar Operator,A1,20.4,2023-08-25,Radar Ops,88,Below Average,High readiness and discipline,41,2024-06-28,Low,Medium,Yes
+IAF1081,Person_82,36,Pilot Officer,16,Medical,Cybersecurity,B1,27.3,2024-01-12,Radar Ops,44,Average,Medical condition affecting performance,28,2020-01-12,Medium,High,Yes
+IAF1082,Person_83,41,Wing Commander,17,Medical,Medical,C1,24.6,2020-08-26,Radar Ops,81,Good,Strong teamwork and adaptability,38,2023-09-05,High,Medium,Yes
+IAF1083,Person_84,47,Flight Lieutenant,23,Pilot,Admin,A2,18.9,2023-08-17,Radar Ops,79,Good,Strong teamwork and adaptability,23,2022-07-14,Medium,Low,Yes
+IAF1084,Person_85,47,Flight Lieutenant,3,Technician,Pilot,C1,26.0,2022-05-24,Radar Ops,95,Good,Strong teamwork and adaptability,5,2024-11-05,Medium,Medium,No
+IAF1085,Person_86,26,Wing Commander,23,Pilot,Technician,C1,22.6,2022-03-22,Radar Ops,45,Below Average,High readiness and discipline,23,2020-06-10,High,High,No
+IAF1086,Person_87,46,Squadron Leader,7,Engineer,Engineer,A2,19.3,2020-09-25,Radar Ops,93,Excellent,Strong teamwork and adaptability,49,2024-03-20,Medium,High,Yes
+IAF1087,Person_88,27,Wing Commander,26,Engineer,Cybersecurity,B2,19.0,2022-11-24,Engineering Systems,68,Average,Medical condition affecting performance,14,2024-04-10,Medium,High,No
+IAF1088,Person_89,43,Wing Commander,15,Medical,Radar Operator,B1,27.1,2024-09-14,Engineering Systems,92,Good,High readiness and discipline,8,2022-01-21,Medium,Medium,Yes
+IAF1089,Person_90,44,Wing Commander,28,Pilot,Technician,A1,26.9,2022-08-17,Engineering Systems,93,Below Average,Excellent leadership in mission,14,2023-06-01,Medium,High,No
+IAF1090,Person_91,38,Flight Lieutenant,8,Medical,Pilot,B1,21.0,2022-02-27,Medical Emergency,90,Good,Needs improvement in technical accuracy,2,2022-08-23,High,Low,No
+IAF1091,Person_92,36,Wing Commander,1,Pilot,Pilot,B1,20.9,2021-09-24,Radar Ops,73,Below Average,Excellent leadership in mission,49,2022-04-10,High,High,Yes
+IAF1092,Person_93,35,Wing Commander,15,Pilot,Pilot,B2,25.1,2020-11-17,Radar Ops,55,Good,Strong teamwork and adaptability,27,2020-10-12,High,Low,No
+IAF1093,Person_94,27,Pilot Officer,17,Technician,Pilot,C1,24.5,2024-09-01,Cyber Defense,95,Below Average,Excellent leadership in mission,40,2023-06-09,Low,High,No
+IAF1094,Person_95,47,Pilot Officer,12,Engineer,Cybersecurity,A1,27.0,2022-03-02,Medical Emergency,74,Average,Needs improvement in technical accuracy,49,2023-12-16,Low,High,Yes
+IAF1095,Person_96,24,Squadron Leader,2,Technician,Engineer,A1,27.2,2020-06-10,Radar Ops,65,Below Average,Strong teamwork and adaptability,2,2021-05-12,High,Low,No
+IAF1096,Person_97,30,Pilot Officer,26,Technician,Medical,B2,26.7,2023-06-06,Cyber Defense,84,Below Average,Strong teamwork and adaptability,33,2022-02-24,Medium,High,No
+IAF1097,Person_98,41,Flying Officer,18,Technician,Technician,A1,19.4,2022-05-15,Radar Ops,85,Below Average,Needs improvement in technical accuracy,44,2023-06-15,High,Low,No
+IAF1098,Person_99,41,Squadron Leader,9,Cybersecurity,Radar Operator,A1,19.3,2023-06-17,Engineering Systems,100,Excellent,Needs improvement in technical accuracy,38,2023-01-05,High,High,No
+IAF1099,Person_100,33,Squadron Leader,19,Pilot,Admin,A2,26.0,2022-06-15,Flight Training,76,Good,High readiness and discipline,23,2023-06-21,Medium,High,Yes
+IAF1100,Person_101,22,Flying Officer,16,Admin,Medical,C1,19.8,2022-12-15,Engineering Systems,79,Average,Medical condition affecting performance,12,2020-03-28,High,Medium,Yes
+IAF1101,Person_102,50,Squadron Leader,3,Radar Operator,Cybersecurity,B1,25.8,2020-09-18,Medical Emergency,97,Average,Needs improvement in technical accuracy,45,2021-06-17,High,High,Yes
+IAF1102,Person_103,47,Flying Officer,8,Radar Operator,Medical,A1,22.5,2024-06-15,Radar Ops,48,Excellent,Excellent leadership in mission,19,2023-12-24,Medium,Low,No
+IAF1103,Person_104,46,Squadron Leader,27,Admin,Pilot,A2,29.2,2020-08-15,Radar Ops,62,Good,High readiness and discipline,40,2024-03-25,High,Medium,Yes
+IAF1104,Person_105,48,Pilot Officer,17,Engineer,Technician,A2,20.3,2021-06-17,Medical Emergency,94,Excellent,Strong teamwork and adaptability,12,2024-05-05,Low,Medium,Yes
+IAF1105,Person_106,38,Flying Officer,19,Admin,Engineer,A2,25.7,2024-06-27,Radar Ops,42,Excellent,Excellent leadership in mission,2,2024-05-21,High,Low,No
+IAF1106,Person_107,41,Pilot Officer,16,Cybersecurity,Admin,B1,25.6,2022-08-08,Cyber Defense,59,Below Average,Excellent leadership in mission,44,2020-03-15,Medium,Medium,No
+IAF1107,Person_108,28,Flight Lieutenant,20,Engineer,Technician,B1,26.6,2022-07-05,Medical Emergency,72,Excellent,Strong teamwork and adaptability,15,2023-02-09,Medium,High,Yes
+IAF1108,Person_109,25,Pilot Officer,10,Medical,Radar Operator,C1,23.1,2021-06-19,Medical Emergency,52,Good,Medical condition affecting performance,32,2023-08-10,Medium,High,Yes
+IAF1109,Person_110,34,Wing Commander,15,Engineer,Engineer,C1,22.4,2020-05-16,Radar Ops,96,Below Average,Strong teamwork and adaptability,34,2020-02-14,High,Medium,No
+IAF1110,Person_111,46,Squadron Leader,12,Pilot,Medical,A1,24.8,2021-06-18,Medical Emergency,44,Below Average,High readiness and discipline,28,2024-05-27,Low,Low,Yes
+IAF1111,Person_112,26,Pilot Officer,13,Technician,Radar Operator,B1,24.6,2022-03-07,Radar Ops,72,Below Average,High readiness and discipline,2,2020-01-05,Low,Medium,No
+IAF1112,Person_113,38,Squadron Leader,5,Admin,Admin,A2,22.1,2024-06-06,Cyber Defense,79,Average,High readiness and discipline,21,2024-09-18,Medium,Low,No
+IAF1113,Person_114,37,Pilot Officer,12,Technician,Cybersecurity,A1,29.3,2024-05-26,Flight Training,78,Below Average,Strong teamwork and adaptability,41,2024-10-08,Low,High,No
+IAF1114,Person_115,27,Wing Commander,21,Cybersecurity,Admin,B2,20.1,2021-01-19,Flight Training,52,Excellent,Medical condition affecting performance,20,2023-03-14,Low,High,No
+IAF1115,Person_116,38,Wing Commander,16,Radar Operator,Radar Operator,A1,26.3,2024-04-18,Medical Emergency,82,Below Average,High readiness and discipline,24,2022-03-15,Low,Medium,No
+IAF1116,Person_117,43,Flight Lieutenant,20,Medical,Engineer,A2,21.6,2022-04-10,Medical Emergency,85,Good,Medical condition affecting performance,20,2023-06-18,Low,Medium,No
+IAF1117,Person_118,25,Wing Commander,22,Admin,Medical,B2,27.5,2021-05-02,Medical Emergency,85,Excellent,Strong teamwork and adaptability,28,2022-12-16,High,High,No
+IAF1118,Person_119,39,Flight Lieutenant,5,Pilot,Admin,C1,21.1,2020-11-17,Engineering Systems,80,Good,Excellent leadership in mission,6,2023-06-23,Medium,High,Yes
+IAF1119,Person_120,22,Wing Commander,6,Medical,Cybersecurity,B2,23.8,2021-05-11,Medical Emergency,81,Excellent,Excellent leadership in mission,41,2024-04-18,Low,Low,Yes
+IAF1120,Person_121,27,Squadron Leader,27,Engineer,Pilot,B2,27.2,2021-12-28,Medical Emergency,96,Excellent,Excellent leadership in mission,19,2024-10-04,Medium,Medium,No
+IAF1121,Person_122,42,Wing Commander,17,Medical,Engineer,C1,23.6,2021-02-11,Engineering Systems,86,Below Average,Strong teamwork and adaptability,45,2021-01-24,Medium,Medium,Yes
+IAF1122,Person_123,27,Wing Commander,28,Cybersecurity,Medical,B2,24.2,2020-07-22,Flight Training,51,Good,Medical condition affecting performance,20,2021-01-09,Medium,High,No
+IAF1123,Person_124,46,Flight Lieutenant,11,Technician,Admin,C1,18.6,2022-12-08,Flight Training,82,Excellent,Medical condition affecting performance,19,2021-07-22,Low,Low,No
+IAF1124,Person_125,44,Pilot Officer,21,Technician,Technician,C1,20.9,2021-08-05,Cyber Defense,87,Average,Medical condition affecting performance,44,2024-08-25,Low,Low,Yes
+IAF1125,Person_126,46,Flying Officer,22,Radar Operator,Admin,A1,24.3,2024-12-12,Flight Training,98,Excellent,Excellent leadership in mission,35,2024-04-19,Low,High,Yes
+IAF1126,Person_127,32,Wing Commander,15,Pilot,Cybersecurity,A2,26.4,2023-02-17,Cyber Defense,91,Excellent,Medical condition affecting performance,8,2024-07-15,Low,High,No
+IAF1127,Person_128,43,Flight Lieutenant,24,Pilot,Medical,B1,27.5,2021-10-03,Flight Training,67,Average,Excellent leadership in mission,34,2020-02-16,High,Medium,No
+IAF1128,Person_129,27,Flying Officer,25,Cybersecurity,Cybersecurity,B2,22.6,2023-08-28,Cyber Defense,64,Excellent,High readiness and discipline,8,2022-02-06,Low,Medium,Yes
+IAF1129,Person_130,45,Flying Officer,27,Pilot,Radar Operator,A1,29.3,2023-11-24,Radar Ops,67,Below Average,Needs improvement in technical accuracy,15,2023-06-05,Medium,High,Yes
+IAF1130,Person_131,23,Squadron Leader,20,Radar Operator,Pilot,A2,20.8,2020-10-02,Cyber Defense,78,Excellent,Needs improvement in technical accuracy,47,2020-07-15,High,Low,Yes
+IAF1131,Person_132,46,Pilot Officer,5,Admin,Technician,A2,27.5,2024-06-19,Radar Ops,89,Average,Needs improvement in technical accuracy,19,2021-11-17,High,Medium,No
+IAF1132,Person_133,30,Pilot Officer,18,Admin,Cybersecurity,A2,25.4,2023-09-16,Flight Training,62,Below Average,High readiness and discipline,20,2023-07-05,Medium,Medium,Yes
+IAF1133,Person_134,46,Wing Commander,16,Engineer,Radar Operator,A2,21.8,2021-08-02,Radar Ops,66,Below Average,High readiness and discipline,33,2021-07-08,Medium,High,No
+IAF1134,Person_135,42,Pilot Officer,15,Radar Operator,Technician,A1,24.4,2021-01-09,Cyber Defense,83,Excellent,Excellent leadership in mission,12,2024-12-22,Low,High,No
+IAF1135,Person_136,28,Flight Lieutenant,10,Pilot,Engineer,A2,29.1,2020-12-25,Cyber Defense,98,Good,High readiness and discipline,45,2021-07-08,Low,Medium,No
+IAF1136,Person_137,34,Squadron Leader,18,Cybersecurity,Technician,B1,21.4,2024-08-15,Flight Training,91,Below Average,Strong teamwork and adaptability,13,2022-06-14,High,Low,Yes
+IAF1137,Person_138,45,Flying Officer,1,Technician,Admin,C1,24.9,2023-05-05,Engineering Systems,61,Good,Medical condition affecting performance,36,2021-08-18,Low,Low,No
+IAF1138,Person_139,30,Squadron Leader,24,Cybersecurity,Cybersecurity,B2,23.6,2022-03-05,Radar Ops,71,Good,High readiness and discipline,41,2020-09-02,High,Low,Yes
+IAF1139,Person_140,46,Pilot Officer,14,Engineer,Radar Operator,A2,19.2,2021-01-07,Radar Ops,69,Average,Excellent leadership in mission,39,2024-08-22,Medium,High,Yes
+IAF1140,Person_141,39,Wing Commander,14,Pilot,Pilot,C1,26.4,2024-05-01,Radar Ops,92,Below Average,Needs improvement in technical accuracy,6,2020-09-05,High,High,No
+IAF1141,Person_142,48,Flight Lieutenant,9,Radar Operator,Medical,A1,22.6,2023-08-19,Engineering Systems,84,Good,Strong teamwork and adaptability,43,2020-11-28,Low,High,Yes
+IAF1142,Person_143,34,Squadron Leader,13,Admin,Medical,A1,25.5,2021-02-16,Cyber Defense,81,Average,High readiness and discipline,6,2024-01-08,High,Low,No
+IAF1143,Person_144,30,Pilot Officer,3,Cybersecurity,Technician,C1,24.7,2020-03-28,Medical Emergency,41,Good,High readiness and discipline,9,2023-02-10,High,Low,Yes
+IAF1144,Person_145,40,Squadron Leader,22,Admin,Technician,B2,26.8,2021-12-24,Flight Training,72,Average,Excellent leadership in mission,6,2023-04-27,High,Medium,No
+IAF1145,Person_146,46,Flight Lieutenant,1,Cybersecurity,Technician,B2,23.9,2022-09-13,Cyber Defense,51,Below Average,Excellent leadership in mission,49,2024-05-26,High,Low,Yes
+IAF1146,Person_147,24,Flight Lieutenant,5,Medical,Cybersecurity,A2,26.6,2022-06-04,Flight Training,40,Average,Medical condition affecting performance,23,2022-02-05,High,High,No
+IAF1147,Person_148,36,Wing Commander,18,Admin,Medical,A1,18.8,2022-09-03,Radar Ops,78,Average,Medical condition affecting performance,0,2022-07-13,High,Low,Yes
+IAF1148,Person_149,40,Wing Commander,6,Cybersecurity,Medical,A2,20.0,2022-05-16,Engineering Systems,44,Good,Medical condition affecting performance,17,2023-05-16,High,Medium,No
+IAF1149,Person_150,29,Squadron Leader,20,Admin,Engineer,B2,19.7,2022-01-13,Medical Emergency,93,Below Average,Strong teamwork and adaptability,28,2022-07-27,Low,Low,Yes
+IAF1150,Person_151,31,Flight Lieutenant,20,Cybersecurity,Engineer,B2,22.0,2023-06-10,Cyber Defense,76,Good,Strong teamwork and adaptability,24,2022-07-12,High,Low,Yes
+IAF1151,Person_152,40,Wing Commander,6,Cybersecurity,Radar Operator,C1,18.8,2023-12-07,Cyber Defense,91,Average,Excellent leadership in mission,50,2023-11-16,High,Low,No
+IAF1152,Person_153,29,Flight Lieutenant,22,Engineer,Cybersecurity,B2,27.2,2020-08-20,Cyber Defense,77,Below Average,High readiness and discipline,32,2023-09-02,Medium,Low,Yes
+IAF1153,Person_154,25,Flying Officer,22,Cybersecurity,Technician,A2,25.6,2020-10-21,Cyber Defense,88,Average,Medical condition affecting performance,6,2020-02-09,High,Low,Yes
+IAF1154,Person_155,36,Flight Lieutenant,13,Medical,Radar Operator,C1,26.1,2021-06-01,Cyber Defense,46,Average,Medical condition affecting performance,5,2020-12-05,Medium,Medium,No
+IAF1155,Person_156,36,Flying Officer,17,Medical,Technician,B2,19.6,2023-06-03,Medical Emergency,42,Excellent,Excellent leadership in mission,21,2020-11-26,High,Low,Yes
+IAF1156,Person_157,38,Flying Officer,18,Engineer,Technician,C1,23.2,2023-04-26,Cyber Defense,80,Good,Needs improvement in technical accuracy,40,2023-07-01,Low,Low,Yes
+IAF1157,Person_158,36,Wing Commander,14,Medical,Pilot,A2,20.8,2020-10-04,Radar Ops,51,Average,Strong teamwork and adaptability,12,2023-02-09,Low,Medium,No
+IAF1158,Person_159,41,Squadron Leader,20,Medical,Admin,A1,22.3,2023-10-06,Medical Emergency,98,Excellent,Needs improvement in technical accuracy,20,2020-04-10,High,High,No
+IAF1159,Person_160,44,Flying Officer,17,Medical,Medical,C1,20.0,2023-07-06,Cyber Defense,80,Good,High readiness and discipline,10,2023-05-05,High,Medium,No
+IAF1160,Person_161,41,Pilot Officer,28,Technician,Pilot,B2,20.0,2023-09-17,Cyber Defense,66,Below Average,Medical condition affecting performance,45,2023-08-06,High,Low,Yes
+IAF1161,Person_162,47,Flying Officer,10,Pilot,Technician,A2,24.4,2021-08-19,Cyber Defense,75,Excellent,High readiness and discipline,7,2022-09-27,Medium,Low,Yes
+IAF1162,Person_163,46,Squadron Leader,18,Engineer,Medical,A1,26.6,2021-05-28,Flight Training,68,Average,Strong teamwork and adaptability,5,2023-02-25,High,High,No
+IAF1163,Person_164,49,Wing Commander,21,Medical,Engineer,C1,20.0,2021-04-26,Flight Training,76,Average,High readiness and discipline,17,2024-09-06,Medium,Low,No
+IAF1164,Person_165,31,Wing Commander,9,Radar Operator,Admin,A1,20.0,2023-01-09,Engineering Systems,84,Good,Needs improvement in technical accuracy,9,2022-04-25,Low,Medium,No
+IAF1165,Person_166,26,Wing Commander,21,Technician,Cybersecurity,B2,22.6,2020-11-26,Flight Training,65,Average,Strong teamwork and adaptability,29,2023-06-19,High,Low,Yes
+IAF1166,Person_167,45,Squadron Leader,21,Cybersecurity,Cybersecurity,B1,27.9,2024-07-07,Cyber Defense,92,Good,Medical condition affecting performance,17,2022-05-11,Low,Low,Yes
+IAF1167,Person_168,40,Squadron Leader,26,Technician,Cybersecurity,A1,19.0,2023-01-04,Engineering Systems,68,Below Average,Excellent leadership in mission,27,2021-12-05,Low,Medium,Yes
+IAF1168,Person_169,49,Flight Lieutenant,3,Cybersecurity,Technician,B1,19.4,2021-01-13,Medical Emergency,86,Good,Medical condition affecting performance,41,2020-12-04,High,High,No
+IAF1169,Person_170,24,Flying Officer,19,Engineer,Admin,B2,18.6,2022-02-28,Cyber Defense,84,Good,Medical condition affecting performance,4,2021-07-03,Low,High,Yes
+IAF1170,Person_171,32,Flight Lieutenant,10,Engineer,Medical,A2,25.6,2021-02-17,Radar Ops,40,Good,Medical condition affecting performance,22,2021-11-24,High,Medium,No
+IAF1171,Person_172,49,Flying Officer,3,Pilot,Engineer,A1,25.0,2023-06-14,Medical Emergency,90,Good,Needs improvement in technical accuracy,17,2020-04-18,Low,Low,No
+IAF1172,Person_173,46,Pilot Officer,28,Radar Operator,Cybersecurity,B1,20.8,2024-09-07,Cyber Defense,58,Excellent,Needs improvement in technical accuracy,31,2023-02-08,Medium,Low,Yes
+IAF1173,Person_174,38,Pilot Officer,12,Technician,Engineer,B2,28.0,2024-07-12,Radar Ops,83,Good,Medical condition affecting performance,49,2020-01-19,High,High,No
+IAF1174,Person_175,28,Pilot Officer,2,Radar Operator,Medical,C1,21.7,2024-07-14,Cyber Defense,45,Good,Strong teamwork and adaptability,5,2022-02-17,High,High,No
+IAF1175,Person_176,34,Wing Commander,21,Radar Operator,Radar Operator,A1,21.9,2023-12-28,Engineering Systems,43,Good,Excellent leadership in mission,27,2020-08-20,Low,High,No
+IAF1176,Person_177,43,Flying Officer,4,Pilot,Cybersecurity,A2,26.2,2021-08-12,Radar Ops,73,Average,Needs improvement in technical accuracy,23,2021-12-25,Medium,Low,Yes
+IAF1177,Person_178,46,Pilot Officer,11,Radar Operator,Medical,B1,24.3,2022-12-19,Flight Training,71,Below Average,High readiness and discipline,23,2020-08-28,Low,High,No
+IAF1178,Person_179,27,Flight Lieutenant,25,Pilot,Admin,A1,21.0,2024-01-02,Flight Training,55,Excellent,Medical condition affecting performance,23,2023-03-06,High,Low,No
+IAF1179,Person_180,29,Flight Lieutenant,8,Medical,Cybersecurity,B1,21.5,2020-10-12,Flight Training,72,Excellent,Needs improvement in technical accuracy,14,2024-01-13,High,Medium,No
+IAF1180,Person_181,46,Flight Lieutenant,11,Pilot,Admin,B2,18.6,2021-05-19,Medical Emergency,87,Good,Medical condition affecting performance,23,2024-08-25,High,Low,Yes
+IAF1181,Person_182,26,Pilot Officer,14,Pilot,Engineer,C1,22.3,2020-06-01,Cyber Defense,94,Average,Excellent leadership in mission,13,2024-04-14,Medium,High,Yes
+IAF1182,Person_183,44,Flight Lieutenant,3,Pilot,Engineer,C1,23.0,2022-08-24,Flight Training,77,Excellent,High readiness and discipline,8,2023-02-19,Low,High,No
+IAF1183,Person_184,43,Flying Officer,8,Technician,Technician,B1,28.7,2023-12-27,Medical Emergency,60,Below Average,Strong teamwork and adaptability,14,2020-04-05,Low,High,Yes
+IAF1184,Person_185,25,Flying Officer,15,Medical,Technician,B2,19.8,2022-04-15,Medical Emergency,69,Average,Excellent leadership in mission,5,2021-11-10,Low,Low,Yes
+IAF1185,Person_186,28,Flight Lieutenant,5,Pilot,Cybersecurity,A2,29.2,2023-09-02,Medical Emergency,56,Good,Excellent leadership in mission,25,2023-09-24,Low,High,Yes
+IAF1186,Person_187,36,Pilot Officer,26,Radar Operator,Engineer,A1,18.6,2021-03-07,Cyber Defense,63,Excellent,High readiness and discipline,37,2022-02-01,High,High,No
+IAF1187,Person_188,47,Flying Officer,3,Radar Operator,Radar Operator,B1,19.8,2023-01-06,Radar Ops,67,Below Average,Medical condition affecting performance,1,2023-11-14,High,Medium,Yes
+IAF1188,Person_189,27,Flight Lieutenant,9,Medical,Engineer,A1,25.3,2024-04-21,Medical Emergency,71,Below Average,High readiness and discipline,30,2020-02-09,Medium,High,No
+IAF1189,Person_190,28,Wing Commander,8,Cybersecurity,Radar Operator,C1,27.2,2023-12-12,Cyber Defense,74,Below Average,Strong teamwork and adaptability,36,2024-06-13,Medium,High,Yes
+IAF1190,Person_191,32,Wing Commander,8,Pilot,Radar Operator,B1,19.1,2023-09-12,Radar Ops,54,Good,Excellent leadership in mission,15,2021-05-18,Low,High,Yes
+IAF1191,Person_192,40,Squadron Leader,12,Radar Operator,Radar Operator,A2,20.4,2024-06-26,Medical Emergency,98,Excellent,Strong teamwork and adaptability,36,2024-03-19,High,Medium,No
+IAF1192,Person_193,27,Squadron Leader,2,Pilot,Pilot,A2,25.1,2020-09-16,Flight Training,61,Good,Needs improvement in technical accuracy,21,2021-06-02,High,High,Yes
+IAF1193,Person_194,46,Pilot Officer,28,Admin,Radar Operator,B1,29.1,2022-12-22,Cyber Defense,77,Excellent,Strong teamwork and adaptability,19,2022-03-06,Low,Medium,No
+IAF1194,Person_195,42,Flight Lieutenant,6,Cybersecurity,Admin,C1,27.2,2021-11-19,Engineering Systems,64,Average,Strong teamwork and adaptability,8,2021-12-01,Low,Low,No
+IAF1195,Person_196,49,Wing Commander,2,Engineer,Admin,B1,28.6,2024-04-21,Radar Ops,46,Below Average,Needs improvement in technical accuracy,21,2020-04-12,Medium,High,Yes
+IAF1196,Person_197,48,Flight Lieutenant,15,Pilot,Technician,A2,21.2,2020-06-09,Flight Training,86,Excellent,Excellent leadership in mission,24,2023-12-14,High,Medium,No
+IAF1197,Person_198,50,Squadron Leader,12,Admin,Medical,A1,27.6,2024-11-25,Engineering Systems,50,Below Average,Excellent leadership in mission,2,2022-01-11,Medium,High,Yes
+IAF1198,Person_199,32,Flying Officer,13,Engineer,Cybersecurity,A1,24.5,2020-06-20,Radar Ops,97,Below Average,Excellent leadership in mission,27,2021-10-14,High,High,Yes
+IAF1199,Person_200,32,Flying Officer,7,Medical,Cybersecurity,C1,26.4,2024-05-22,Medical Emergency,59,Good,Excellent leadership in mission,3,2023-10-18,Medium,High,Yes

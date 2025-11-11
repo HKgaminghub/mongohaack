@@ -1,0 +1,83 @@
+*Type of data structure *
+    *IMUTABLE*:-
+        In this the change is not allow 
+
+        -Example:-
+            str
+            Taple
+    *MUTABLE*:-
+        In this we can change the data after creating 
+
+    *ITRATABLE*:-
+        All the data structure are itretable.
+        The itretable data structure can in loop.
+    
+    *Orderd*:
+        This have orderd indexing
+        -Example:-
+            str
+            list
+            tuple
+
+    *UNORDER*:
+        This have no Orderd indexing.
+        -Example:-
+            dictionary
+            set
+
+
+
+*String*:
+    *FUNCTION*:
+        lower()
+        upper()
+        capitalize()
+        title()
+        swapcase()
+        count("i",startin index,endind index) this will say how much time did the i come 
+        find("i",startin index,endind index) this will find the first arriving index this will return -1 if the substring is not there
+        rfind("i",startin index,endind index) this will find the last arriving index this will return -1 if the substring is not there
+        index()
+        rindex()
+        endswith("is")this will return true or false as per the sub string
+        startswith("is")this will return true or false as per the sub string
+        isalnum()
+        islower()
+        isupper()
+        isnumeric()
+        isalpha()
+        istitle()
+        isindentifier()this will check if the string can be the variable name or not  
+        isspace()this will check is there only space in the String
+        s1.join(s2)
+        s.split(" ")This will split the word from the data
+        s.replace("Hello","Hi")
+        s.teanslate(s.maketrans("ABC","123")) in this the maketrans will make a dictionary of key as the ascii of first string one by one character and value as the ascii of schracters from second and translate translate the all chracter using ascii
+        s.teanslate(s.maketrans("ABC","123","j")) in this all j will remove
+        s.strip("dsjfh")this will remove from both side
+        s.lstrip("dsjfh")this will remove from left side
+        s.rstrip("dsjfh")this will remove from right side
+
+
+*Tuple*:
+    *Function*:
+        tuple(enumerate(t))this will give ((index,value),(index,value))
+
+*List*:
+    L1 = [1,2,1,[1,2],[1,2]]
+    the id of L1[0]==L1[2]
+    but the id of L1[-1]!=L1[-2]
+
+*Dictionary*:
+    The data can be stored only in pair(key,value)
+    this is mutable datastructure and this is UNORDER datastructure
+    you can noly save the key of immutable datastructure like tuple, number and string
+    slising is not possible 
+    *FUNCTION*:
+        get("key",10) this will help to find the key if the key is not in dictionary then it will return or 10 the given argument
+        setdefault(key,value) this will check if the key exist if not then add else it will not add
+        fromkeys(keys datastructure,value) this is the most useless function because it store key one by and store the same value in all 
+        pop()return value
+        popitem()(key,value)
+        clear()it will clear full dictionary
+        

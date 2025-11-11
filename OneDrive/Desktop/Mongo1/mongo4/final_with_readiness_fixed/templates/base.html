@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>IAF Human Management System</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>
+        <span class="logo-icon">🚀</span>
+        IAF Human Management System
+      </h1>
+      {% if current_user.is_authenticated %}
+        <nav>
+          <a href="{{ url_for('dashboard') }}" class="nav-item">
+            <span class="nav-icon">🏠</span>
+            <span class="nav-text">Dashboard</span>
+          </a>
+          <a href="{{ url_for('attrition_view') }}" class="nav-item">
+            <span class="nav-icon">📊</span>
+            <span class="nav-text">Attrition</span>
+          </a>
+          <a href="{{ url_for('medical_view') }}" class="nav-item">
+            <span class="nav-icon">🏥</span>
+            <span class="nav-text">Medical</span>
+          </a>
+          <a href="{{ url_for('training_view') }}" class="nav-item">
+            <span class="nav-icon">🎓</span>
+            <span class="nav-text">Training</span>
+          </a>
+          <a href="{{ url_for('leadership_view') }}" class="nav-item">
+            <span class="nav-icon">👑</span>
+            <span class="nav-text">Leadership</span>
+          </a>
+          <a href="{{ url_for('skills_view') }}" class="nav-item">
+            <span class="nav-icon">⚡</span>
+            <span class="nav-text">Skills</span>
+          </a>
+          <a href="{{ url_for('readiness_view') }}" class="nav-item">
+            <span class="nav-icon">🎯</span>
+            <span class="nav-text">Readiness</span>
+          </a>
+          <a href="{{ url_for('add_personnel') }}" class="nav-item">
+            <span class="nav-icon">➕</span>
+            <span class="nav-text">Add Personnel</span>
+          </a>
+          <a href="{{ url_for('whatif_view') }}" class="nav-item">
+            <span class="nav-icon">🔮</span>
+            <span class="nav-text">What-If</span>
+          </a>
+          <a href="{{ url_for('add_admin') }}" class="nav-item">
+            <span class="nav-icon">👤</span>
+            <span class="nav-text">Add Admin</span>
+          </a>
+          <a href="{{ url_for('logout') }}" class="nav-item logout">
+            <span class="nav-icon">🚪</span>
+            <span class="nav-text">Logout</span>
+          </a>
+        </nav>
+      {% endif %}
+    </div>
+  </header>
+  
+  <main>
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        <div class="flashes-container">
+          <ul class="flashes">
+            {% for category, message in messages %}
+              <li class="{{ category }}">
+                <span class="flash-icon">
+                  {% if category == 'success' %}✅{% elif category == 'error' %}❌{% else %}ℹ️{% endif %}
+                </span>
+                {{ message }}
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+    {% endwith %}
+    
+    {% block content %}{% endblock %}
+  </main>
+  
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <p>&copy; 2025 IAF Human Management System. Advanced Personnel Analytics Platform.</p>
+      <div class="footer-stats">
+        <span class="stat-item">🔒 Secure</span>
+        <span class="stat-item">⚡ Fast</span>
+        <span class="stat-item">🎯 Accurate</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

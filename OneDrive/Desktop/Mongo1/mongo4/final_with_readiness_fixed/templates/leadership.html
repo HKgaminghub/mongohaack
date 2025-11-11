@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="card">
+  <h2>Leadership</h2>
+  <table>
+    <thead><tr><th>ID</th><th>Name</th><th>Rank</th><th>Potential</th><th>Perf</th><th>Missions</th></tr></thead>
+    <tbody>
+      {% for r in rows %}
+      <tr>
+        <td>{{ r.Personnel_ID }}</td>
+        <td>{{ r.Name }}</td>
+        <td>{{ r.Rank }}</td>
+        <td>{{ r.Leadership_Potential }}</td>
+        <td>{{ r.Performance_Rating }}</td>
+        <td>{{ r.Missions_Completed }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+{% endblock %}

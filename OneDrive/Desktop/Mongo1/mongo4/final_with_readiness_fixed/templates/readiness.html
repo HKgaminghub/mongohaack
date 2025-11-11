@@ -1,0 +1,90 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="card">
+  <h2>Readiness – Build a Team</h2>
+
+  <form method="post" id="build-team-form">
+    <label>Headcount</label>
+    <input type="number" name="headcount" min="1" value="{{ request.form.get('headcount', 10) }}" required />
+
+    <label style="margin-top:1rem;">Required roles (click to select)</label>
+    <div class="chips" id="roles-selector">
+      {# Pass all_roles from Flask if possible; fallback keeps it working. #}
+      {% set fallback = ['Pilot','Radar Operator','ATC','Engineer','Technician','Medic','Navigator','Ground Crew'] %}
+      {% for role in (all_roles if all_roles else fallback) %}
+        <button type="button" class="tag" data-value="{{ role }}">
+          <span class="tag__ico">+</span> {{ role }}
+        </button>
+      {% endfor %}
+    </div>
+
+    {# Hidden input your backend reads as comma-separated list #}
+    <input type="hidden" name="roles" id="roles-input" value="{{ roles or request.form.get('roles','') }}"/>
+
+    <button class="btn" style="margin-top:1rem;">Select Team</button>
+  </form>
+
+  {% if team %}
+  <h3 style="margin-top:1.5rem;">Suggested Team</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th><th>Name</th><th>Rank</th><th>Skill</th><th>Readiness</th><th>Medical</th><th>Leadership</th><th>Perf</th><th>Score</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for r in team %}
+        {% set readiness_val = r.Readiness_Level or 'Neutral' %}
+        {% set readiness_class = (readiness_val|string|lower) %}
+        <tr>
+          <td>{{ r.Personnel_ID }}</td>
+          <td>{{ r.Name }}</td>
+          <td>{{ r.Rank }}</td>
+          <td>{{ r.Primary_Skill }}</td>
+          <td>
+            <span class="chip table-chip chip--{{ readiness_class if readiness_class in ['high','medium','low'] else 'neutral' }}">
+              <span class="chip__dot" aria-hidden="true"></span>{{ readiness_val }}
+            </span>
+          </td>
+          <td>{{ r.Medical_Category }}</td>
+          <td>{{ r.Leadership_Potential }}</td>
+          <td>{{ r.Performance_Rating }}</td>
+          <td>{{ '%.2f'|format(r.Overall) }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% endif %}
+</section>
+
+<script>
+/* Role chip picker: green on select + keep hidden input synced */
+(function () {
+  const container = document.getElementById('roles-selector');
+  const hidden = document.getElementById('roles-input');
+
+  // Build initial selection from hidden input (server value or previous submit)
+  const selected = new Set(
+    (hidden.value || '').split(',').map(s => s.trim()).filter(Boolean)
+  );
+
+  // Initialize and bind
+  [...container.querySelectorAll('.tag')].forEach(btn => {
+    const val = btn.dataset.value;
+    paint(btn, selected.has(val));
+    btn.addEventListener('click', () => {
+      if (selected.has(val)) selected.delete(val); else selected.add(val);
+      paint(btn, selected.has(val));
+      hidden.value = [...selected].join(', ');
+    });
+  });
+
+  function paint(btn, on){
+    const val = btn.dataset.value;
+    btn.classList.toggle('tag--selected', on);
+    btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+    btn.innerHTML = `<span class="tag__ico">${on ? '×' : '+'}</span> ${val}`;
+  }
+})();
+</script>
+{% endblock %}

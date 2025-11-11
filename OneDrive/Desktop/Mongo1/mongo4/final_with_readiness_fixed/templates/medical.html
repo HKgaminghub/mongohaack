@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="card">
+  <h2>Medical Scores</h2>
+  <table>
+    <thead><tr><th>ID</th><th>Name</th><th>Rank</th><th>Category</th><th>Score</th><th>BMI</th><th>Last Checkup</th></tr></thead>
+    <tbody>
+      {% for r in rows %}
+      <tr>
+        <td>{{ r.Personnel_ID }}</td>
+        <td>{{ r.Name }}</td>
+        <td>{{ r.Rank }}</td>
+        <td>{{ r.Medical_Category }}</td>
+        <td>{{ '%.0f'|format(r.Medical_Score) }}</td>
+        <td>{{ r.BMI }}</td>
+        <td>{{ r.Last_Medical_Checkup }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+{% endblock %}

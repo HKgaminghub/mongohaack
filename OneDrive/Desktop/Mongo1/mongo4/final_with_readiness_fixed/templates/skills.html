@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="card">
+  <h2>Skill Grouping</h2>
+  {% for skill, people in groups.items() %}
+    <h3>{{ skill }}</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th><th>Name</th><th>Rank</th><th>Perf</th><th>Readiness</th><th>Medical</th>
+        </tr>
+      </thead>
+      <tbody>
+      {% for r in people %}
+        {% set readiness_val = r.Readiness_Level or 'Neutral' %}
+        {% set readiness_class = (readiness_val|string|lower) %}
+        <tr>
+          <td>{{ r.Personnel_ID }}</td>
+          <td>{{ r.Name }}</td>
+          <td>{{ r.Rank }}</td>
+          <td>{{ r.Performance_Rating }}</td>
+          <td>
+            <span
+              class="chip table-chip chip--{{ readiness_class if readiness_class in ['high','medium','low'] else 'neutral' }}"
+              aria-label="Readiness: {{ readiness_val }}"
+            >
+              <span class="chip__dot" aria-hidden="true"></span>
+              {{ readiness_val }}
+            </span>
+          </td>
+          <td>{{ r.Medical_Category }}</td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  {% endfor %}
+</section>
+{% endblock %}

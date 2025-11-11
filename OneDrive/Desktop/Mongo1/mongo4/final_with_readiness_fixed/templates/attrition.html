@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="card">
+  <h2>Attrition – Who might leave</h2>
+  <table>
+    <thead><tr><th>ID</th><th>Name</th><th>Rank</th><th>Years</th><th>Risk</th><th>Perf</th></tr></thead>
+    <tbody>
+      {% for r in rows %}
+      <tr>
+        <td>{{ r.Personnel_ID }}</td>
+        <td>{{ r.Name }}</td>
+        <td>{{ r.Rank }}</td>
+        <td>{{ r.Years_of_Service }}</td>
+        <td>{{ r.get('Attrition_Risk', r.get('Heuristic_Attrition')) }}</td>
+        <td>{{ r.Performance_Rating }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+{% endblock %}

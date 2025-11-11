@@ -1,0 +1,142 @@
+{% extends 'base.html' %}
+{% block content %}
+<!-- Hero Section -->
+<section class="hero-card">
+  <div class="hero-content">
+    <div class="hero-text">
+      <h1 class="hero-title">
+        <span class="hero-icon">🚀</span>
+        IAF Human Management System
+      </h1>
+      <p class="hero-subtitle">
+        Advanced Personnel Analytics & Strategic Decision Support Platform
+      </p>
+      <div class="hero-stats">
+        <div class="stat-card">
+          <span class="stat-number">200+</span>
+          <span class="stat-label">Personnel</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">7</span>
+          <span class="stat-label">Skill Categories</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">100%</span>
+          <span class="stat-label">AI-Powered</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="floating-elements">
+        <div class="floating-element element-1">📊</div>
+        <div class="floating-element element-2">🎯</div>
+        <div class="floating-element element-3">⚡</div>
+        <div class="floating-element element-4">🔮</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Quick Actions Grid -->
+<section class="card">
+  <h2>
+    <span class="section-icon">⚡</span>
+    Quick Actions
+  </h2>
+  <p class="section-description">Access key features and analytics tools with one click</p>
+  
+  <div class="actions-grid">
+    <a href="{{ url_for('add_personnel') }}" class="action-card">
+      <div class="action-icon">➕</div>
+      <div class="action-content">
+        <h3>Add New Personnel</h3>
+        <p>Enter role, skills, experience, training, medical → predicts readiness, performance & leadership.</p>
+        <div class="action-badge">AI Prediction</div>
+      </div>
+    </a>
+
+    <a href="{{ url_for('readiness_view') }}" class="action-card">
+      <div class="action-icon">🛫</div>
+      <div class="action-content">
+        <h3>Team Readiness</h3>
+        <p>Build optimal teams by roles and headcount with advanced matching algorithms.</p>
+        <div class="action-badge">Optimization</div>
+      </div>
+    </a>
+
+    <a href="{{ url_for('training_view') }}" class="action-card">
+      <div class="action-icon">🎓</div>
+      <div class="action-content">
+        <h3>Training Analysis</h3>
+        <p>Identify personnel requiring training and skill development programs.</p>
+        <div class="action-badge">Analytics</div>
+      </div>
+    </a>
+
+    <a href="{{ url_for('whatif_view') }}" class="action-card">
+      <div class="action-icon">🔮</div>
+      <div class="action-content">
+        <h3>What-If Simulation</h3>
+        <p>Run complex scenario analysis with NLP-powered query processing.</p>
+        <div class="action-badge">NLP AI</div>
+      </div>
+    </a>
+
+    <a href="{{ url_for('attrition_view') }}" class="action-card">
+      <div class="action-icon">📊</div>
+      <div class="action-content">
+        <h3>Attrition Risk</h3>
+        <p>Analyze personnel at risk of leaving and retention strategies.</p>
+        <div class="action-badge">Risk Analysis</div>
+      </div>
+    </a>
+
+    <a href="{{ url_for('leadership_view') }}" class="action-card">
+      <div class="action-icon">👑</div>
+      <div class="action-content">
+        <h3>Leadership Pipeline</h3>
+        <p>Identify and develop future leaders with potential assessment.</p>
+        <div class="action-badge">Development</div>
+      </div>
+    </a>
+  </div>
+</section>
+
+<!-- System Status -->
+<section class="card">
+  <h2>
+    <span class="section-icon">🔧</span>
+    System Status
+  </h2>
+  <div class="status-grid">
+    <div class="status-item">
+      <div class="status-indicator online"></div>
+      <div class="status-info">
+        <span class="status-label">Database</span>
+        <span class="status-value">Online</span>
+      </div>
+    </div>
+    <div class="status-item">
+      <div class="status-indicator online"></div>
+      <div class="status-info">
+        <span class="status-label">ML Models</span>
+        <span class="status-value">Active</span>
+      </div>
+    </div>
+    <div class="status-item">
+      <div class="status-indicator online"></div>
+      <div class="status-info">
+        <span class="status-label">Analytics</span>
+        <span class="status-value">Ready</span>
+      </div>
+    </div>
+    <div class="status-item">
+      <div class="status-indicator online"></div>
+      <div class="status-info">
+        <span class="status-label">Security</span>
+        <span class="status-value">Protected</span>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

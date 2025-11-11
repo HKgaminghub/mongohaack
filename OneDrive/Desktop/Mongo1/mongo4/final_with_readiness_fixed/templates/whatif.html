@@ -1,0 +1,161 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="card">
+  <h2>
+    <span class="section-icon">🔮</span>
+    What‑If Scenario Analysis
+  </h2>
+  <p class="description">Ask complex questions about personnel management scenarios like retirement impacts, redeployment effects, pilot grounding, promotions, and budget analysis.</p>
+  
+  <div class="query-form-container">
+    <form method="post" class="query-form">
+      <div class="form-group">
+        <label for="query">Scenario Query</label>
+        <textarea 
+          name="query" 
+          id="query"
+          rows="4" 
+          placeholder="Examples:
+• What is the impact of retiring senior officers?
+• How would grounding pilots with medical issues affect operations?
+• Analyze redeployment of engineers to cybersecurity roles
+• What are the budget implications of current personnel costs?
+• Show promotion candidates for leadership positions"
+          required></textarea>
+      </div>
+      <button type="submit" class="analyze-btn">
+        <span class="btn-icon">🔍</span>
+        <span class="btn-text">Analyze Scenario</span>
+      </button>
+    </form>
+    
+    <div class="query-examples">
+      <h3>💡 Quick Examples</h3>
+      <div class="example-tags">
+        <button type="button" class="example-tag" onclick="setQuery('What is the impact of retiring senior officers?')">
+          Retirement Impact
+        </button>
+        <button type="button" class="example-tag" onclick="setQuery('How would grounding pilots with medical issues affect operations?')">
+          Pilot Grounding
+        </button>
+        <button type="button" class="example-tag" onclick="setQuery('Analyze redeployment of engineers to cybersecurity roles')">
+          Redeployment
+        </button>
+        <button type="button" class="example-tag" onclick="setQuery('What are the budget implications of current personnel costs?')">
+          Budget Analysis
+        </button>
+        <button type="button" class="example-tag" onclick="setQuery('Show promotion candidates for leadership positions')">
+          Promotions
+        </button>
+      </div>
+    </div>
+  </div>
+  
+  {% if result %}
+    <div class="analysis-results">
+      <div class="results-header">
+        <h3>
+          <span class="results-icon">📊</span>
+          Analysis Results
+        </h3>
+        <div class="results-meta">
+          <span class="analysis-type">{{ result.action.replace('_', ' ').title() }}</span>
+        </div>
+      </div>
+      
+      {% if result.query %}
+      <div class="query-display">
+        <div class="query-label">📝 Original Query</div>
+        <div class="query-text">{{ result.query }}</div>
+      </div>
+      {% endif %}
+      
+      {% if result.analysis %}
+      <div class="analysis-text">
+        <div class="analysis-header">
+          <span class="analysis-icon">🔍</span>
+          <span class="analysis-title">Impact Analysis</span>
+        </div>
+        <div class="analysis-content">
+          <pre>{{ result.analysis }}</pre>
+        </div>
+      </div>
+      {% endif %}
+      
+      {% if result.recommendations %}
+      <div class="recommendations">
+        <div class="recommendations-header">
+          <span class="recommendations-icon">💡</span>
+          <span class="recommendations-title">Strategic Recommendations</span>
+        </div>
+        <div class="recommendations-content">
+          <ul>
+            {% for rec in result.recommendations %}
+            <li>
+              <span class="recommendation-bullet">▶</span>
+              {{ rec }}
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      {% endif %}
+      
+      {% if result.data %}
+      <div class="data-table">
+        <div class="data-header">
+          <span class="data-icon">📋</span>
+          <span class="data-title">Affected Personnel</span>
+          <span class="data-count">{{ result.data|length }} records</span>
+        </div>
+        <div class="table-container">
+          <table>
+            <thead>
+              {% for k in result.data[0].keys() %}
+              <th>{{ k.replace('_', ' ').title() }}</th>
+              {% endfor %}
+            </thead>
+            <tbody>
+              {% for row in result.data %}
+              <tr>
+                {% for v in row.values() %}
+                <td>{{ v }}</td>
+                {% endfor %}
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </div>
+      {% endif %}
+    </div>
+  {% endif %}
+</section>
+
+<script>
+function setQuery(query) {
+  document.getElementById('query').value = query;
+  document.getElementById('query').focus();
+}
+
+// Add some interactive effects
+document.addEventListener('DOMContentLoaded', function() {
+  const textarea = document.getElementById('query');
+  const analyzeBtn = document.querySelector('.analyze-btn');
+  
+  // Auto-resize textarea
+  textarea.addEventListener('input', function() {
+    this.style.height = 'auto';
+    this.style.height = this.scrollHeight + 'px';
+  });
+  
+  // Button loading state
+  analyzeBtn.addEventListener('click', function() {
+    if (textarea.value.trim()) {
+      this.classList.add('loading');
+      this.innerHTML = '<span class="btn-icon">⏳</span><span class="btn-text">Analyzing...</span>';
+    }
+  });
+});
+</script>
+{% endblock %}

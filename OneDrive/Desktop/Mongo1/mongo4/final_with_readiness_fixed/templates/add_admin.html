@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="card">
+  <h2>Add Admin</h2>
+  <form method="post">
+    <label>New username <input name="username" required /></label>
+    <label>New password <input type="password" name="password" required /></label>
+    <button>Add</button>
+  </form>
+</section>
+{% endblock %}

@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="card">
+  <h2>Training – Below threshold ({{ thresh }})</h2>
+  <form method="get">
+    <label>Threshold <input name="thresh" type="number" min="0" max="100" value="{{ thresh }}" /></label>
+    <button>Apply</button>
+  </form>
+  <table>
+    <thead><tr><th>ID</th><th>Name</th><th>Rank</th><th>Course</th><th>Score</th><th>Perf</th></tr></thead>
+    <tbody>
+      {% for r in rows %}
+      <tr>
+        <td>{{ r.Personnel_ID }}</td>
+        <td>{{ r.Name }}</td>
+        <td>{{ r.Rank }}</td>
+        <td>{{ r.Training_Course }}</td>
+        <td>{{ r.Training_Score }}</td>
+        <td>{{ r.Performance_Rating }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+{% endblock %}

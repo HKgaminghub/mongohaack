@@ -1,0 +1,9 @@
+mkdir  :- create directory
+chdir  :- change directory
+remove :- delete the directory
+rmdir  :- delete the directory and dont have 
+
+
+
+
+docstring :-  docstring can be added using multiline ''' oiasd ''' 
